@@ -38,6 +38,8 @@ Run the following command to open up the application:
 
 Then you'll see the application opening in the web browser on the following address: http://localhost:8888. 
 
+![](http://community.datacamp.com.s3.amazonaws.com/community/production/ckeditor_assets/pictures/191/content_jupyternotebook1.gif)
+
 <<Insert DataCamp Gif>>
 The "Files" tab is where all your files are kept, the "Running" tab keeps track of all your processes and the third tab, "Clusters", is provided by IPython parallel, IPython's parallel computing framework. It allows you to control many individual engines, which are an extended version of the IPython kernel.
 
