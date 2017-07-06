@@ -1,9 +1,10 @@
-# How-to-Jupyter
+[![Jupyter Logo]
+(http://blog.jupyter.org/content/images/2015/02/jupyter-sq-text.png)]
 
-Jupyter 
+### Jupyter!
 
 What is it?
-It’s a server-client application, that allows you to edit and run your notebooks via a web browser. The application can be executed on a PC/MAC without internet access or it can be installed on a remote server, where you can access it through the internet. 
+It’s an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. The application can be executed on a PC/MAC without internet access or it can be installed on a remote server, where you can access it through the internet. 
 
 Jupyter has two main components: The Kernel and Dashboard.
 
@@ -19,7 +20,7 @@ IPython - Late 2001 - Fernando Perez starts developing IPython. Which, ended up 
 
 Jupyter - 2014 - Fernando Perez announced a spin-off project from IPython called Project Jupyter. 
 
-How to install Jupyter
+How to install Jupyter for us experienced Python users. 
 -Run the following command in the Terminal 
 pip3 install jupyter
 
@@ -34,8 +35,27 @@ Once you have the server up and running, look for the text that says
 Follow those instructions.
 
 Demo
+Run the following command to open up the application:
+
+jupyter notebook
+
+Then you'll see the application opening in the web browser on the following address: http://localhost:8888. 
 
 
+<<Insert DataCamp Gif>>
+The "Files" tab is where all your files are kept, the "Running" tab keeps track of all your processes and the third tab, "Clusters", is provided by IPython parallel, IPython's parallel computing framework. It allows you to control many individual engines, which are an extended version of the IPython kernel.
+
+We will start by creating a “New Notebook.”
+We will do simply do this by clicking on the “New Button” in the “Files” tab.
+
+
+If you want to get the most out of your notebooks with the IPython kernel, you should consider learning about the so-called "magic commands". 
+
+The Notebook's Built-In Commands
+There are some predefined ‘magic functions’ that will make your work a lot more interactive.
+To see which magic commands you have available in your interpreter, you can simply run the following:
+%lsmagic
+Tip: the regular Python help() function also still works and you can use the magic command %quickref to show a quick reference sheet for IPython.
 
 
 
