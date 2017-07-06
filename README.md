@@ -23,7 +23,7 @@ pip3 install jupyter
 
 ### Setup
 In the Terminal, type in:
-Jupyter notebook
+`Jupyter notebook`
 
 Once you have the server up and running, look for the text that says
 “Copy/paste this URL into your browser when you connect for the first time,
@@ -40,12 +40,10 @@ Then you'll see the application opening in the web browser on the following addr
 
 ![](http://community.datacamp.com.s3.amazonaws.com/community/production/ckeditor_assets/pictures/191/content_jupyternotebook1.gif)
 
-<<Insert DataCamp Gif>>
 The "Files" tab is where all your files are kept, the "Running" tab keeps track of all your processes and the third tab, "Clusters", is provided by IPython parallel, IPython's parallel computing framework. It allows you to control many individual engines, which are an extended version of the IPython kernel.
 
 We will start by creating a “New Notebook.”
 We will do simply do this by clicking on the “New Button” in the “Files” tab.
-
 
 If you want to get the most out of your notebooks with the IPython kernel, you should consider learning about the so-called "magic commands". 
 
@@ -56,16 +54,22 @@ To see which magic commands you have available in your interpreter, you can simp
 Tip: the regular Python help() function also still works and you can use the magic command %quickref to show a quick reference sheet for IPython.
 
 
+### Closing Out Your Notebook!
+To close the Notebook server, go to the OS terminal where you launched the server from, and press Ctrl + C. 
+You may need to confirm with y.
 
 
 
-Resources
 
+## Resources
+Jupyter's Website!
 http://jupyter.org/index.html
 Jupyter on GitHub
 https://github.com/jupyter/help
 Jupyter on StackOverflow
 https://stackoverflow.com/questions/tagged/jupyter
+Basics of Jupyter Notebook and Python
+https://www.packtpub.com/books/content/basics-jupyter-notebook-and-python
 
 
 
